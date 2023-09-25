@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Student Marks System</h1>
+    <div id="marksInput">
+        <label for="studentNumber">Student Number:</label>
+        <input type="text" id="studentNumber" placeholder="Enter Student Number">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" placeholder="Enter Full Name">
+        <label for="caMarks">CA Marks:</label>
+        <input type="number" id="caMarks" placeholder="Enter CA Marks">
+        <label for="examMarks">Exam Marks:</label>
+        <input type="number" id="examMarks" placeholder="Enter Exam Marks">
+        <button onclick="addStudentMarks()">Add Marks</button>
+    </div>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Student Number</th>
+                <th>Full Name</th>
+                <th>CA Mark</th>
+                <th>Exam Mark</th>
+                <th>Final Mark</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Student data will be inserted here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
